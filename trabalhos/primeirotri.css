@@ -1,4 +1,5 @@
 /*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 
 body{
     background-color: #F2B705;
@@ -34,8 +35,11 @@ button{
 .pageprimeirotri{
     background-color: #F2B705;
     font-weight: weight;
-    font-style: normal;
     height: 497px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
 }
 .onda{
     position: absolute;
@@ -48,6 +52,7 @@ button{
     font-weight: 700;
     font-style: normal;
     text-align: center;
+    text-shadow: #ffa600  0.1em 0.1em 0.2em;
 }
 .materiast1{  
     display: flex;

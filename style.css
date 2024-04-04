@@ -1,4 +1,3 @@
-/*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 /*div apresentação*/@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 html{
@@ -19,7 +18,7 @@ body{
     justify-content: center;
     margin-top:  100px;
 }
-.portfolio{
+.portfolio{/*titulos*/
     width: 70%;
     margin: auto;
     display: flex;
@@ -80,13 +79,11 @@ body{
 }
 button{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     background-color:#FA7F08;
     border: none;
     color: antiquewhite;
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    letter-spacing: 2px;
 }
 h1{  /*Portfólio*/
     color: antiquewhite;
@@ -202,10 +199,10 @@ p{
 }
 @keyframes go-back {
     from {
-      transform: translateX(100px);
+      transform: translateY(40px);
     }
     to {
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 .pagetrimestres{ /*pagina de trimestres*/
@@ -328,10 +325,9 @@ a{
     color: white;
 }
 .social{
-    background-color: #348888;
+    background-color: #34888800;
     height: 180px;
     text-align: center;
-   
 }
 .sociais{
     height: 70px;
@@ -339,7 +335,8 @@ a{
     background: none;
 }
 .traco{ /*borda do botao social*/
-    background-color: #9ef8ee;
+    background-color: #9ef8ee00;
+    transition: 1s;
 }
 #fundo-social{
     background-color: #9ef8ee;
@@ -349,5 +346,13 @@ a{
 }
 p{
     text-align: center;
-    
+}
+#github:hover{
+    transform: scale(1.5);
+}
+#linkdin:hover{
+    transform: scale(1.5);
+}
+#gmail:hover{
+    transform: scale(1.5);
 }
