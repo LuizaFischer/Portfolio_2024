@@ -1,0 +1,79 @@
+/*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+
+body{
+    background-color: #F2B705;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+.botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{
+    background-color: #FA7F08;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+#primeiro{
+    color: #9EF8EE;
+}
+
+/*PAGINA DAS MATERIAS*/
+.pageprimeirotri{
+    background-color: #F2B705;
+    font-weight: weight;
+    font-style: normal;
+    height: 497px;
+}
+.onda{
+    position: absolute;
+    bottom: 0;
+}
+.primeirotri{ 
+    font-size: 45px;
+    color: #fffffe;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.materiast1{  
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 310px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.materias{  
+    margin: auto;
+    background-color: #22BABB;
+    width: 230px;
+    height: 300px;
+    box-shadow: 10px 10px 10px 5px #9ef8ee96;
+    border-radius:0px 90px 0px 30px;
+     font-size: 27px;
+    color: #9EF8EE;
+    text-align: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: rgba(1, 179, 164, 0.925);
+}

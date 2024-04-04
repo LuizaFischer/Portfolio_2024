@@ -1,0 +1,353 @@
+/*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+/*div apresentação*/@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+html{
+   scroll-behavior: smooth;
+
+}
+body{
+   background-color: #348888;
+   min-width: 100vw;
+   min-height: 100%;
+   overflow-x:hidden ;
+}
+.titulos{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:  100px;
+}
+.portfolio{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.t1{  /*Portfólio*/
+    width: 73%;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left; 
+    text-align: left;
+}
+.t2{ /*Luiza Fischer*/
+    height: 99px;
+}
+.t3{ /*Terceirão A - 2024*/
+    width: 73%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right; 
+    text-align: end;
+}
+.p1{
+    text-align: left;
+}
+.barrasuperior{
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    background-color:#FA7F08;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: 1s all;
+}
+.barrasuperior:hover{
+    height: 90px;
+}
+*{
+    padding: 0;
+    margin: 0   ;
+}
+.home:hover{
+    color: #9EF8EE;
+    cursor: pointer ;
+}
+.home a, .home button {
+    height: 100%;
+}
+button{
+    text-align: center;
+    font-size: 30px;
+    background-color:#FA7F08;
+    border: none;
+    color: antiquewhite;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{  /*Portfólio*/
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: "Antic Slab", serif;
+    font-weight: 4o0;
+    font-style: normal;
+
+}
+h2{  /*Luiza Fischer*/
+    text-align: center;
+    color: #9EF8EE;
+    font-size: 99px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: max-content;
+    padding-top: 0;
+    height: max-content;
+    text-shadow: #00e1ff42  0.1em 0.1em 0.2em;
+}
+h3{ /*Terceirão A - 2024*/
+   text-align: end;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: "Antic Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+h4{
+    color:#FFAFDA;
+    text-align: left;
+    font-size: 27px;
+    margin-left: 50px;
+}
+p{
+    color: antiquewhite;
+    text-align: left;
+    font-size: 17px;
+    margin-left: 50px;
+}
+.apresentacao{
+    background-color:#F2B705;
+    font-family: "Rubik", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    height: 560px;
+}
+.quemsoueu{
+    color: #9EF8EE;
+}
+.fundo-apresentacao{
+    background-color:#348888;
+    width: 450px;
+    height: 430px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 130px;
+    border-radius:0px 30px 0px 30px;
+    box-shadow: 10px 10px 10px 5px  #e2fff9b9;
+}
+.carta{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+    text-align: justify;
+}
+#luaz1{
+    z-index: 1;
+}
+.luaz2{
+    object-fit: contain;
+    width: 310px;
+    height: 310px;
+    margin-left: 100%;
+    margin-top: 178px;
+    animation: go-back 3s infinite alternate;
+}
+.quadrado-fundo{
+    background-color: #348888;
+    color: #ffffff00;
+    width: 370px;
+    border-width: 40px;
+    border-radius: 0px;
+    height: 410px;
+    margin-left: 59.7%;
+    margin-top: 0.5%;
+    position: absolute;
+    box-shadow: 10px 10px 10px 5px  #fcfffec4;
+    animation: go-back 3s infinite alternate;
+}
+.fotinha{
+    background-color:#FA7F08;
+    width: 330px;
+    border-width: 30px;
+    height: 398px;
+    margin-left: 58.7%;
+    margin-top: 2%;
+    border-radius: 10px 0px 10px 0px;
+    animation: go-back 3s infinite alternate;
+    position: absolute;
+}
+#luiza{ /*minha foto na div*/
+    object-fit: contain;
+    width: 280px;
+    margin-top: 13px;
+    margin-left: 25px;
+}
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+.pagetrimestres{ /*pagina de trimestres*/
+    background-color: #348888;
+    text-align: center;
+    font-weight: weight;
+    font-style: normal;
+    height: 790px;
+    align-items: center;
+}
+.trimestres24{  /*pagina de trimestres*/
+    font-size: 45px;
+    color: #edfffd;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.tri24{
+    color:#cafffc
+}
+.t123{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.primeiro{
+    background-color: #FA7F08;
+    margin-left: 50px;
+    width: 360px;
+    height: 370px;
+    box-shadow: 10px 10px 10px 5px #9ef8ee8a;
+    border-radius:0px 30px 0px 0px;
+     font-size: 27px;
+    color: #71063f;
+}
+#foto123{ 
+    object-fit: contain;
+    width: 485px;
+    height: 340px;
+    
+}
+
+.pageprojetos{ 
+    background-color:#FA7F08;
+    text-align: center;
+    font-weight: weight;
+    font-style: normal;
+    height: 700px;
+}
+.projetos{  
+    font-size: 45px;
+    color:#e0faf7;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+   
+    font-style: normal;
+}
+.proj24{  
+    color: #e4fffc;
+}
+.p123{  
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+#fotoproj123{ 
+    background-color: #22BABB;
+    margin-left: 50px;
+    width: 360px;
+    height: 370px;
+    box-shadow: 10px 10px 10px 5px #9ef8ee94;
+    border-radius:0px 30px 0px 0px;
+     font-size: 27px;
+    color: #9EF8EE;
+}
+.pageextras{
+    width: 100%;
+    background-color: #F2B705;
+    font-weight: weight;
+    font-style: normal;
+    height: 580px;
+}
+.extras{ 
+    font-size: 45px;
+    color: #fffffe;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.e123{  
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 310px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.portfolio2022{  
+    margin: auto;
+    background-color: #22BABB;
+    width: 230px;
+    height: 200px;
+    box-shadow: 10px 10px 10px 5px #9ef8ee96;
+    border-radius:0px 90px 0px 30px;
+     font-size: 27px;
+    color: #9EF8EE;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.social{
+    background-color: #348888;
+    height: 180px;
+    text-align: center;
+   
+}
+.sociais{
+    height: 70px;
+    width: 70px;
+    background: none;
+}
+.traco{ /*borda do botao social*/
+    background-color: #9ef8ee;
+}
+#fundo-social{
+    background-color: #9ef8ee;
+    border-radius: 45px;
+    width: 570px;
+    margin: auto;
+}
+p{
+    text-align: center;
+    
+}

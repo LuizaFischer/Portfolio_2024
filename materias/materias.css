@@ -1,0 +1,67 @@
+
+body{
+    background-color: #348888;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+a{
+    text-decoration: none;
+    color: #22BABB;
+}
+.trabalhos{
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: #F2B705;
+    font-size: 50px;
+}
+h1{
+    font-size: 30px;
+    color:  #22BABB;
+}
+p{
+    width:580px;
+    height: 200px;
+    margin: auto;
+    color: #055252;
+    text-align: center;
+}
+.atiling{
+    background-color: #ffffff;
+    width: 880px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 5px  #a8a614b9;
+}
+.onda{
+    position: absolute;
+    bottom: 0;
+}
+.botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{
+    background-color: #FA7F08;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer ;
+}
+.home:hover{
+    background-color: rgba(1, 179, 164, 0.925);
+}
