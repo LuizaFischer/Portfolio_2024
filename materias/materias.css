@@ -1,7 +1,7 @@
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 
 body{
-    background-color: #348888;
+    background-color:#22BABB;
     min-width: 100vw;
     min-height: 100%;
     overflow-x:hidden ;
@@ -19,7 +19,7 @@ a{
 }
 h2{
     text-align: center;
-    color: #F2B705;
+    color: #fcdf98;
     font-size: 40px;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
