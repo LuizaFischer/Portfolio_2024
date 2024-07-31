@@ -1,5 +1,5 @@
 body{
-    background-color: #22BABB;
+    background-color: #A3CCAB;
     text-align: center;
     color: antiquewhite;
 }
@@ -9,7 +9,7 @@ body{
     border-radius: 40px;
 }
 button{
-    background-color: #FA7F08;
+    background-color: #022859;
     color: aliceblue;
     border-radius: 40px;
     border: none;
@@ -20,7 +20,7 @@ button{
     cursor: pointer ;
 }
 .home:hover{
-    background-color: #F2B705;
+    background-color: #0c3366;
 }
 .gato{
     object-fit: contain;

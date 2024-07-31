@@ -1,7 +1,7 @@
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 
 body{
-    background-color: #F2B705;
+    background-color:  #A3CCAB;
     min-width: 100vw;
     min-height: 100%;
     overflow-x:hidden ;
@@ -12,7 +12,7 @@ body{
     border-radius: 40px;
 }
 button{
-    background-color: #FA7F08;
+    background-color: #022859;
     color: aliceblue;
     border-radius: 40px;
     border: none;
@@ -32,7 +32,7 @@ button{
 
 /*PAGINA DAS MATERIAS*/
 .pageprimeirotri{
-    background-color: #F2B705;
+    background-color: #A3CCAB;
     font-weight: weight;
     font-style: normal;
     height: 497px;
@@ -48,7 +48,6 @@ button{
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    text-shadow: #ffa600  0.1em 0.1em 0.2em;
 }
 .materiast1{  
     display: flex;
@@ -61,20 +60,24 @@ button{
 } 
 .materias{  
     margin: auto;
-    background-color: #22BABB;
-    width: 230px;
-    height: 300px;
-    box-shadow: 10px 10px 10px 5px #9ef8ee96;
+    background-color: #053D38;
+    width: 280px;
+    height: 200px;
     border-radius:0px 60px 0px 30px;
      font-size: 27px;
-    color: #9EF8EE;
+    color: #ffffff;
     text-align: center;
     justify-content: space-around;
+    transition: 1s all;
+}
+.materias:hover{
+    width: 285px;
+    height: 220px;
 }
 a{
     text-decoration: none;
     color: white;
 }
 .home:hover{
-    background-color: rgba(1, 179, 164, 0.925);
+    background-color: #2d5488;
 }

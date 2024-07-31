@@ -68,7 +68,7 @@ body{
     margin: 0   ;
 }
 .home:hover{
-    color: #9EF8EE;
+    color: #9fddab;
     cursor: pointer ;
 }
 .home a, .home button {
@@ -115,7 +115,7 @@ h3{ /*Terceirão A - 2024*/
     margin: auto;
 }
 h4{
-    color:#FFAFDA;
+    color:#ffffff;
     text-align: left;
     font-size: 27px;
     margin-left: 50px;
@@ -213,7 +213,7 @@ p{
 }
 .trimestres24{  /*pagina de trimestres*/
     font-size: 45px;
-    color: #edfffd;
+    color: #ffffff;
      font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
