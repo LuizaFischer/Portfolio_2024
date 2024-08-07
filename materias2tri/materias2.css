@@ -1,0 +1,76 @@
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+
+body{
+    background-color:#053D38;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.trabalhos{
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    color: #022859;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+p{
+    width:580px;
+    height: 200px;
+    margin: auto;
+    color: #055252;
+    text-align: center;
+}
+.atiling{
+    background-color: #ffffff;
+    width: 880px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.onda{
+    position: absolute;
+    bottom: 0;
+}
+.botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{
+    background-color: #A3CCAB;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer ;
+}
+.home:hover{
+    background-color: #74aaf1;
+}

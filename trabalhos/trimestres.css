@@ -1,0 +1,85 @@
+/*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+
+body{
+    background-color: #A3CCAB;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+.botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{
+    background-color: #022859;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+/*PAGINA DAS MATERIAS*/
+.pageprimeirotri{
+    background-color:#A3CCAB;
+    font-weight: weight;
+    height: 497px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.onda{
+    position: absolute;
+    bottom: 0;
+}
+.primeirotri{ 
+    font-size: 45px;
+    color: #022859;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-shadow: #ffffff71  0.1em 0.1em 0.2em;
+}
+.materiast1{  
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 310px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.materias{  
+    margin: auto;
+    background-color: #053D38;
+    width: 230px;
+    height: 220px;
+    border-radius:0px 80px 0px 20px;
+     font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+    transition: 1s all;
+}
+.materias:hover{
+    width: 270px;
+    height: 370px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: #2d5488;
+}
