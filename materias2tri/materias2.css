@@ -1,7 +1,16 @@
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 
+/*    cores 
+#F2506E - rosa forte
+#565959 - cinza claro
+#9fddab - verde claro
+#0D0D0D - preto 
+#1A1E1D - cinza escuro
+#ee768c - rosa claro
+*/
+
 body{
-    background-color:#053D38;
+    background-color:#1A1E1D ;
     min-width: 100vw;
     min-height: 100%;
     overflow-x:hidden ;
@@ -19,7 +28,7 @@ a{
 }
 h2{
     text-align: center;
-    color: #ffffff;
+    color: #9fddab;
     font-size: 40px;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
@@ -28,7 +37,7 @@ h2{
 }
 h1{
     font-size: 25px;
-    color: #022859;
+    color: #F2506E;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
@@ -38,8 +47,9 @@ p{
     width:580px;
     height: 200px;
     margin: auto;
-    color: #055252;
+    color: #000000;
     text-align: center;
+    font-size: 20px;
 }
 .atiling{
     background-color: #ffffff;
@@ -61,7 +71,7 @@ p{
     border-radius: 40px;
 }
 button{
-    background-color: #A3CCAB;
+    background-color: #F2506E;
     color: aliceblue;
     border-radius: 40px;
     border: none;
@@ -72,5 +82,8 @@ button{
     cursor: pointer ;
 }
 .home:hover{
-    background-color: #74aaf1;
+    background-color: #ee768c;
+}
+.fontehumanas{
+    font-size: 19px;
 }

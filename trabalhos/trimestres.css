@@ -1,8 +1,16 @@
 /*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 
+/*    cores 
+#F2506E - rosa forte
+#565959 - cinza claro
+#9fddab - verde claro
+#0D0D0D - preto 
+#1A1E1D - cinza escuro
+#ee768c - rosa claro
+*/
 body{
-    background-color: #A3CCAB;
+    background-color: #1A1E1D;
     min-width: 100vw;
     min-height: 100%;
     overflow-x:hidden ;
@@ -16,8 +24,8 @@ body{
     height: 40px;
     border-radius: 40px;
 }
-button{
-    background-color: #022859;
+button{ 
+    background-color: #F2506E;
     color: aliceblue;
     border-radius: 40px;
     border: none;
@@ -30,7 +38,7 @@ button{
 
 /*PAGINA DAS MATERIAS*/
 .pageprimeirotri{
-    background-color:#A3CCAB;
+    background-color:#1A1E1D;
     font-weight: weight;
     height: 497px;
     font-family: "Cinzel Decorative", serif;
@@ -44,12 +52,12 @@ button{
 }
 .primeirotri{ 
     font-size: 45px;
-    color: #022859;
+    color: #F2506E;
      font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    text-shadow: #ffffff71  0.1em 0.1em 0.2em;
+    text-shadow: #3d3c3c71  0.1em 0.1em 0.2em;
 }
 .materiast1{  
     display: flex;
@@ -62,24 +70,24 @@ button{
 } 
 .materias{  
     margin: auto;
-    background-color: #053D38;
+    background-color: #F2506E;
     width: 230px;
     height: 220px;
-    border-radius:0px 80px 0px 20px;
+    border-radius:0px 60px 0px 20px;
      font-size: 27px;
     color: #ffffff;
     text-align: center;
     justify-content: space-around;
     transition: 1s all;
+    box-shadow: 10px 12px #a3ccab;
 }
 .materias:hover{
-    width: 270px;
-    height: 370px;
+    transform: scale(1.1);
 }
 a{
     text-decoration: none;
     color: white;
 }
 .home:hover{
-    background-color: #2d5488;
+    background-color: #ee768c;
 }

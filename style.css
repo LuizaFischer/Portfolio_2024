@@ -1,5 +1,15 @@
 /*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
 /*div apresentação*/@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*    cores 
+#F2506E - rosa forte
+#565959 - cinza claro
+#9fddab - verde claro
+#0D0D0D - preto 
+#1A1E1D - cinza escuro
+#ee768c - rosa claro
+*/
+
 html{
    scroll-behavior: smooth;
 
@@ -252,7 +262,7 @@ p{
 }
 .pageextras{
     width: 100%;
-    background-color: #F2506E;
+    background-color: #0D0D0D;
     font-weight: weight;
     font-style: normal;
     height: 580px;
@@ -278,7 +288,7 @@ p{
 } 
 .portfolio2022{  
     margin: auto;
-    background-color: #1A1E1D;
+    background-color: #F2506E;
     width: 230px;
     height: 200px;
     border-radius:0px 90px 0px 30px;
