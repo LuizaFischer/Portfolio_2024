@@ -4,8 +4,8 @@ html{
    scroll-behavior: smooth;
 
 }
-body{
-   background-color: #A3CCAB;
+body{/*primeiro fundo*/
+   background-color:#565959;
    min-width: 100vw;
    min-height: 100%;
    overflow-x:hidden ;
@@ -51,7 +51,7 @@ body{
     z-index: 30;
     position: fixed;
     top: 0;
-    background-color:#022859;
+    background-color:#F2506E;
     height: 70px;
     width: 100%;
     text-align: center;
@@ -67,17 +67,17 @@ body{
     padding: 0;
     margin: 0   ;
 }
-.home:hover{
+.home:hover{ /*botoes barra superior*/
     color: #9fddab;
     cursor: pointer ;
 }
 .home a, .home button {
     height: 100%;
 }
-button{
+button{ /*botoes barra superior*/
     text-align: center;
     font-size: 35px;
-    background-color:#022859;
+    background-color: #F2506E;;
     border: none;
     color: antiquewhite;
     letter-spacing: 2px;
@@ -92,7 +92,7 @@ h1{  /*Portfólio*/
 }
 h2{  /*Luiza Fischer*/
     text-align: center;
-    color: #022859;
+    color: #ee768c;
     font-size: 99px;
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
@@ -100,7 +100,7 @@ h2{  /*Luiza Fischer*/
     width: max-content;
     padding-top: 0;
     height: max-content;
-    text-shadow: #ffffff46  0.1em 0.1em 0.2em;
+    text-shadow: #5e5c5c8e  0.1em 0.1em 0.2em;
     height: 99px;
 }
 h3{ /*Terceirão A - 2024*/
@@ -126,8 +126,8 @@ p{
     font-size: 17px;
     margin-left: 50px;
 }
-.apresentacao{
-    background-color:#053D38;
+.apresentacao{ /*primeiro fundo*/
+    background-color:#0D0D0D;
     font-family: "Rubik", sans-serif;
     font-weight: weight;
     font-style: normal;
@@ -138,15 +138,15 @@ p{
 .quemsoueu{
     color: #ffffff;
 }
-.fundo-apresentacao{
-    background-color: #34675C;
+.fundo-apresentacao{ 
+    background-color: #F2506E;
     width: 450px;
     height: 430px;
     text-align: center;
     border-radius: 20px;
     margin-left: 130px;
     border-radius:0px 30px 0px 30px;
-    box-shadow: 10px 10px 10px 5px  #ffffff54;
+    box-shadow: 10px 12px #a3ccab;
 }
 .carta{
     width: 370px;
@@ -165,8 +165,8 @@ p{
     margin-top: 178px;
     animation: go-back 3s infinite alternate;
 }
-.quadrado-fundo{
-    background-color: #8fb697;
+.quadrado-fundo{  /*div de tras da minha foto*/
+    background-color: #ee768c;
     color: #ffffff00;
     width: 370px;
     border-width: 40px;
@@ -175,11 +175,10 @@ p{
     margin-left: 59.7%;
     margin-top: 0.5%;
     position: absolute;
-    box-shadow: 10px 10px 10px 5px  #ffffff44;
     animation: go-back 3s infinite alternate;
 }
-.fotinha{
-    background-color: #34675C;
+.fotinha{  /*minha foto na div*/
+    background-color: #F2506E;
     width: 330px;
     border-width: 30px;
     height: 398px;
@@ -204,7 +203,7 @@ p{
     }
   }
 .pagetrimestres{ /*pagina de trimestres*/
-    background-color: #A3CCAB;
+    background-color: #0D0D0D;
     text-align: center;
     font-weight: weight;
     font-style: normal;
@@ -213,12 +212,12 @@ p{
 }
 .trimestres24{  /*pagina de trimestres*/
     font-size: 45px;
-    color: #ffffff;
+    color: #a3ccab;
      font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
 }
-.t123{
+.t123{  /*pagina de trimestres*/
     text-align: center;
     justify-content: center;
     display: flex;
@@ -227,42 +226,13 @@ p{
     justify-content: space-around;
 
 }
-.primeiro{
-    background-color: #FA7F08;
-    margin-left: 50px;
-    width: 360px;
-    height: 370px;
-    box-shadow: 10px 10px 10px 5px #9ef8ee8a;
-    border-radius:0px 30px 0px 0px;
-     font-size: 27px;
-    color: #71063f;
-}
-#foto123{ 
+#foto123{  /*pagina de trimestres*/
     object-fit: contain;
     width: 485px;
     height: 340px;
     
 }
-
-.pageprojetos{ 
-    background-color:#8fb697;
-    text-align: center;
-    font-weight: weight;
-    font-style: normal;
-    height: 700px;
-}
-.projetos{  
-    font-size: 45px;
-    color:#ffffff;
-     font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-   
-    font-style: normal;
-}
-.proj24{  
-    color: #ffffff;
-}
-.p123{  
+.p123{   /*pagina de trimestres*/
     text-align: center;
     justify-content: center;
     display: flex;
@@ -270,30 +240,31 @@ p{
     flex-direction: row;
     justify-content: space-around;
 } 
-#fotoproj123{ 
+#fotoproj123{   /*pagina de trimestres*/
     background-color: #22BABB;
     margin-left: 50px;
     width: 360px;
     height: 370px;
-    box-shadow: 10px 10px 10px 5px #ffffff33;
+    box-shadow: 10px 12px #a3ccab;
     border-radius:0px 30px 0px 0px;
      font-size: 27px;
     color: #ffffff;
 }
 .pageextras{
     width: 100%;
-    background-color: #053D38;
+    background-color: #F2506E;
     font-weight: weight;
     font-style: normal;
     height: 580px;
 }
 .extras{ 
     font-size: 45px;
-    color: #ffffff;
+    color: #9fddab;
      font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
     text-align: center;
+
 }
 .e123{  
     display: flex;
@@ -303,17 +274,18 @@ p{
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
+  
 } 
 .portfolio2022{  
     margin: auto;
-    background-color: #A3CCAB;
+    background-color: #1A1E1D;
     width: 230px;
     height: 200px;
-    
     border-radius:0px 90px 0px 30px;
      font-size: 27px;
     color: #ffffff;
     text-align: center;
+    box-shadow: 10px 12px #a3ccab;
 }
 a{
     text-decoration: none;
@@ -333,8 +305,8 @@ a{
     background-color: #9ef8ee00;
     transition: 1s;
 }
-#fundo-social{
-    background-color: #022859;
+#fundo-social{  /*fundo do botao social*/
+    background-color: #a3ccab;;
     border-radius: 45px;
     width: 570px;
     margin: auto;
