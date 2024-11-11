@@ -325,11 +325,11 @@ p{
     text-align: center;
 }
 #github:hover{
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 #linkdin:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 #gmail:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
