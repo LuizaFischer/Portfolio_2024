@@ -1,0 +1,94 @@
+/*botoes na barra superior*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+
+/*    cores 
+#F2506E - rosa forte
+#565959 - cinza claro
+#9fddab - verde claro
+#0D0D0D - preto 
+#1A1E1D - cinza escuro
+#ee768c - rosa claro
+*/
+body{
+    background-color: #1A1E1D;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+.botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{ 
+    background-color: #F2506E;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+/*PAGINA DAS MATERIAS*/
+.pageprimeirotri{
+    background-color:#1A1E1D;
+    font-weight: weight;
+    height: 497px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.primeirotri{ /*Titulo*/
+    font-size: 45px;
+    color: #F2506E;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-shadow: #3d3c3c71  0.1em 0.1em 0.2em;
+}
+.materiast1{  
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 310px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.materias{  
+    margin: auto;
+    background-color: #F2506E;
+    width: 290px;
+    height: 260px;
+    border-radius:0px 60px 0px 20px;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+    transition: 1s all;
+    box-shadow: 10px 12px #a3ccab;
+}
+.sematividade{
+    font-size: 15px;
+
+}
+.materias:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: #ee768c;
+}

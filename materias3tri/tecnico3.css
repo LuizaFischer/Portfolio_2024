@@ -1,0 +1,86 @@
+/*titulo Luza Fischer*/@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative:wght@400;700;900&family=Righteous&family=Rokkitt:ital,wght@1,100..900&family=Sen:wght@400..800&display=swap');
+
+body{
+    background-color: #1A1E1D;
+    min-width: 100vw;
+    min-height: 100%;
+    overflow-x:hidden ;
+ }
+ .botaovoltar{
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+button{ 
+    background-color: #F2506E;
+    color: aliceblue;
+    border-radius: 40px;
+    border: none;
+    font-size: 35px;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+ *{
+    padding: 0;
+    margin: 0   ;
+}
+
+#primeiro{
+    color: antiquewhite;
+}
+
+/*PAGINA DAS MATERIAS*/
+.pagesegundotri{
+    background-color: #1A1E1D;
+    font-weight: weight;
+    font-style: normal;
+    height: 497px;
+}
+.onda{
+    position: absolute;
+    bottom: 0;
+}
+.segundotri{ 
+    font-size: 45px;
+    color: #F2506E;
+     font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-shadow: #3d3c3c71  0.1em 0.1em 0.2em;
+}
+
+.materiast2{  
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 310px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.materias{  
+    margin: auto;
+    background-color: #F2506E;
+    width: 310px;
+    height: 260px;
+    border-radius:0px 60px 0px 20px;
+     font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-around;
+    transition: 1s all;
+    box-shadow: 10px 12px #a3ccab;
+}
+.materias:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    background-color: #ee768c;
+}
