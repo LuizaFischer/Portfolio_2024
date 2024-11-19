@@ -37,14 +37,14 @@ button{
 }
 
 /*PAGINA DAS MATERIAS*/
-.pageprimeirotri{
-    background-color:#1A1E1D;
-    font-weight: weight;
-    height: 497px;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 700;
-    font-style: normal;
+
+.pageprimeirotri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     text-align: center;
+    padding: 20px;
 }
 
 .primeirotri{ /*Titulo*/
@@ -56,34 +56,37 @@ button{
     text-align: center;
     text-shadow: #3d3c3c71  0.1em 0.1em 0.2em;
 }
-.materiast1{  
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-    height: 310px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-} 
-.materias{  
-    margin: auto;
+.materiast1 {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    max-width: 90%;
+    margin: 0 auto; 
+    justify-items: center; 
+    align-items: center; 
+}
+.materias {
     background-color: #F2506E;
-    width: 290px;
-    height: 260px;
-    border-radius:0px 60px 0px 20px;
+    width: 250px;
+    height: 180px;
+    border-radius: 0px 60px 0px 20px;
     font-size: 19px;
     color: #ffffff;
     text-align: center;
-    justify-content: space-around;
-    transition: 1s all;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all; 
     box-shadow: 10px 12px #a3ccab;
+    font-family: "Cinzel Decorative", serif;;
 }
 .sematividade{
     font-size: 15px;
 
 }
-.materias:hover{
+.materias:hover {
     transform: scale(1.1);
+   
 }
 a{
     text-decoration: none;
